@@ -1,0 +1,125 @@
+/**
+ * @author Guillaume PARIS 
+ * @mail paris.guillaume@hotmail.fr
+ * Technical test for Early Birds
+ * 
+ */
+
+
+body{
+	background-color: black;
+}
+
+/*************** TILES ************/
+.tiles {
+	position: relative;
+	margin-top: 20vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 508px;
+	overflow: hidden;
+	border: 3px solid #F2F2F2;
+}
+
+.tiles li {
+	position: relative;
+	width: 1000px;
+	height: 508px;
+	margin-right: 10px;
+	float: left;
+}
+
+.tiles ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/*************** FILM'S DETAILS ************/
+.title {
+	color: WHITE;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+.arr {
+	font-size: 72px;
+	color: grey;
+	bottom: 30%;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+	position: absolute;
+	z-index : 9999;
+}
+
+.arr:hover {
+	color: gold;
+	cursor: pointer;
+}
+
+.left {
+	left: 0;
+}
+
+.right {
+	right: 0;
+}
+
+.overview {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-right: 60px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+	position: absolute;
+}
+
+/*************** NUMBER BUBBLE ************/
+
+.numberCircle {
+	background: #cccccc;
+	border-radius: 0.8em;
+	-moz-border-radius: 0.8em;
+	-webkit-border-radius: 0.8em;
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-align: center;
+	width: 1.6em;
+	
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: right;
+	position: absolute;
+}
+
+
+/*************** STARS ************/
+.star{
+	font-size : 35px;
+	color : gold;
+}
+
+.vote{
+	margin-right: 10px;
+	margin-top: 10px;
+	float: right;
+	position: relative;
+}
+
+.notation{
+	color : grey;
+	font-size : 20px;
+	
+}
